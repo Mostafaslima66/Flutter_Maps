@@ -12,6 +12,6 @@ Flutter_Maps is a mobile application built with Flutter and Dart that provides f
 - **Local Storage**: Uses Hive local database for storing marker data.
 - **Street Route Display**: When two markers are added, clicking the floating action button will display the real street map route between the two markers.
 - **Location Search**: Users can search for any location on the world map by typing the name in the search bar, with suggestions provided as they type.
-- **API :
+- **API** :
 
 
