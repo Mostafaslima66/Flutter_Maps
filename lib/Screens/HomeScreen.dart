@@ -335,12 +335,12 @@ servicesEnabled = await Geolocator.isLocationServiceEnabled();
 
   Uri getGeocodeUrl(String query) {
     return Uri.parse(
-        'https://api.openrouteservice.org/geocode/search?api_key=5b3ce3597851110001cf6248450a76d8a03f41e8b7cecefcdd86d6ec&text=$query');
+        'https://api.openrouteservice.org/geocode/search?api_key='Write your API key'&text=$query');
   }
 
   Uri getRouteUrl(String start, String end) {
     return Uri.parse(
-        'https://api.openrouteservice.org/v2/directions/driving-car?api_key=5b3ce3597851110001cf6248450a76d8a03f41e8b7cecefcdd86d6ec&start=$start&end=$end');
+        'https://api.openrouteservice.org/v2/directions/driving-car?api_key='Write your API key'&start=$start&end=$end');
   }
 
   void showMarkerInfoDialog(String info) {
